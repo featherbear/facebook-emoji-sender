@@ -1,0 +1,4 @@
+module.exports = {
+  facebook_username: "john.citizen1@example.com",
+  facebook_password: "password123",
+};

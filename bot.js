@@ -33,15 +33,18 @@ const fs = require("fs");
   );
 
   bot.id = bot.session.tokens.uid;  
-  let messageMap = require("./messageMap.json");
+  let messageMap = require(__dirname + "/messageMap.json");
 
   bot.on("message", async message => {
     if (bot.id == message.authorId) {
       let key = message.message;
       if (key in messageMap) {
         let val = messageMap[key];
+        console.log(`Transforming ${key} -> ${val}`)
+        
         // TODO: Delete message we are replacing
-        bot.sendAttachmentFile(message.threadId, "./images/" + val.toString())
+        
+        bot.sendAttachmentFile(message.threadId, __dirname + "/images/" + val.toString())
       }
     }
   });
