@@ -1,6 +1,11 @@
 {
-  ":o"          : "surprisedPikachu.png",
-  ":O"          : "surprisedPikachu.png",
-  "\uD83D\uDE2E": "surprisedPikachu.png",
-  ":surprised:" : "surprisedPikachu.png",
+  ":o"           : "surprisedPikachu.png",
+  ":O"           : "surprisedPikachu.png",
+  "\uD83D\uDE2E" : "surprisedPikachu.png",
+  ":surprised:"  : "surprisedPikachu.png",
+  ":angry:"      : "angryPikachu.jpg",
+  ":angery:"     : "angryPikachu.jpg",
+  ":3"           : "laughingPikachu.jpg",
+  ":grin:"       : "laughingPikachu.jpg",
+  ":shrug:"      : "indifferentPikachu.jpg"
 }
